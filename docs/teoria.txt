@@ -1,0 +1,119 @@
+Resumen:
+Significado
+----------------------------------
+(espacio) descendiente (hijo, nieto...)
+. clase
+, OR
+(concatenaci´on) AND
+# id
+
+---------------------------------
+
+Diapositiva 14 CSS
+
+Selector de tipo o etiqueta
+Selecciona todos los elementos de la p´agina cuya etiqueta
+HTML coincide con el valor del selector
+Se pueden agrupar todas las reglas individuales en una sola
+regla con un selector multiple. La coma significa ´ or
+Buena pr´actica: agrupar los atributos comunes de varios
+elementos en una unica regla CSS y posteriormente definir los ´
+atributos espec´ıficos de esos mismos elementos
+h1, h2, h3 {
+color: #8A8E27;
+font-weight: normal;
+font-family: Arial, Helvetica, sans-serif;
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.2em; }
+
+--------------------
+
+p span {color:red} se aplica el color a todos los descendientes de span
+---------------------
+
+1. p a span em { text-decoration: underline; }
+
+Esto significa que cualquier <em> dentro de un <span>, que a su vez esté dentro de un <a>, que esté dentro de un <p> tendrá subrayado (text-decoration: underline).
+Ejemplo afectado:
+<p>
+  <a href="#">
+    <span>
+      <em>Texto subrayado</em>
+    </span>
+  </a>
+</p>
+
+2.p, a, span, em { text-decoration: underline; }
+
+Esto aplica subrayado a todos los elementos <p>, <a>, <span> y <em>, sin importar su posición en el HTML.
+Esto significa que el subrayado estará presente en cualquier lugar donde estos elementos aparezcan.
+
+3.p a { color: red; }
+
+Esta regla hace que todos los enlaces (<a>) dentro de un <p> tengan color rojo.
+Ejemplo afectado:
+
+<p>
+  <a href="#">Este enlace será rojo</a>
+</p>
+
+4.p * a { color: red; }
+
+Aquí p * a significa cualquier <a> dentro de un <p>, sin importar cuántos niveles de elementos haya entre ellos.
+Es decir, el enlace puede estar dentro de un <div>, un <span>, etc., y aún así se aplicará la regla.
+Ejemplo afectado:
+<p>
+  <span>
+    <div>
+      <a href="#">Este enlace también será rojo</a>
+    </div>
+  </span>
+</p>
+
+
+Se hereda la clase pero no los atributos.
+------------------------
+
+div.aviso span.especial-> Span de clase especial descendiente de un div de clase aviso
+.aviso .especial-> objeto de clase especial descendiente de clase aviso
+
+- Cuanto más especifico sea un selector, más importancia tiene su regla asociada.
+- A igual especificidad, se considera la ultima regla indicada. 
+
+
+
+
+
+
+
+----
+
+Todo producto tenga un id, con ese id podemos obtener la imagen por ejemplo
+
+atributos
+
+cosa nueva a producto, tener id, añadir propiedad nueva, con boton/botones
+
+añadir una propiedad nueva a cada producto. hacer cosas con esa propiedad. 
+vincular una nueva propiedad a cada objeto
+propiedad debera aparecer en las tablas, crear columnas.
+
+
+nombre como identificador MAL. 
+cada producto tenga un id BIEN
+
+
+ID PUEDE SER UN NUMERO, SIGLAS, O LO QUE SEA.
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,412 @@
+carrusel
+
+En un 'carousel' de Bootstrap
+
+a. Podemos poner fotos de cualquier tamaño, que Bootstrap se
+encargará de adaptarlas para que se vean bien.
+
+* b. Todas las fotos deberían tener mismo tamaño y relación de
+aspecto, de lo contrario el resultado será bastante pobre.
+
+c. Todas las fotos tienen que tener mismo tamaño y relación de
+aspecto, de lo contrario Bootstrap mostrará un error.
+
+d. Todas las fotos tienen que tener la misma relación de
+aspecto, eso Bootstrap no lo puede corregir. Pero si los tamaños
+cambian, Bootstrap se encarga de homogeneizarlos.
+
+-----------------------------------------------
+
+colores
+
+¿Qué afirmación es correcta?
+
+a.  El número de colores que podemos usar en CSS es 140.
+
+* b.  En CSS podemos usar unos 16 millones de colores, aproximadamente.
+
+c.  El número de colores que podemos usar en CSS es el establecido por
+    el estandar Pantone. Son dos mil y pico, y van aumentado poco a poco
+    con los años.
+
+d.  El número de colores que podemos usar en CSS es el establecido por
+    el estandar Pantone: unos 16 millones de colores, aproximadamente.
+    
+---------------------------------------------
+
+coordenadas
+
+¿Cuál es la respuesta correcta?
+
+a.  Si expresamos las coordenadas de un punto sobre la tierra con grados
+    decimales (dos números reales), para obtener una precisión de 100
+    metros basta con emplear 5 decimales.
+
+b.  Para presentar en una página web un mapa de cualquier lugar del
+    mundo, podemos usar Google Maps, que es libre y gratuito.
+
+c.  Los paralelos son líneas verticales imaginarias que se toman como
+    referencia para ubicuar puntos sobre la Tierra.
+
+* d.  Las coordenadas de un punto se expresan con latitud y longitud. Para
+    cada una de estas dos magnitudes se pueden emplear o bien grados,
+    minutos y segundos (por tanto un punto son 6 números reales en
+    total) o bien grados decimales (por tanto un punto son 2 números
+    reales en total).
+    
+---------------------------------------------
+
+creacion
+
+Crear un elemento dinámicamente mediante el DOM significa
+
+a.  Que el elemento lo creamos de la manera más rápida posible.
+
+b.  Que el elemento lo creamos editando el código HTML en el servidor.
+
+c.  Que el elemento no está originalmente en el documento HTML, lo
+    creamos en JavaScript y lo insertamos en el HTML.
+
+* d.  Que el elemento no está originalmente en el documento HTML, lo
+    creamos en JavaScript y lo insertamos en el DOM (aunque esto no
+    modifica el HTML).
+
+-------------------------------------------------
+
+css
+
+¿Qué afirmación es FALSA?
+
+a.  La misma regla CSS se puede aplicar a varios elementos. Un mismo
+    elemento puede recibir el efecto de varias reglas.
+
+b.  En una regla CSS el selector indica a qué elementos se aplica la
+    regla, esto es, 'para estos elementos, este atributo tiene tal
+    valor'.
+
+* c.  Las reglas CSS se pueden escribir como contenido de un elemento
+    'link'.
+
+d.  Las reglas CSS se pueden escribir como contenido de un elemento
+    'style'.
+    
+---------------------------------------------------
+
+date
+
+
+¿Qué afirmación es FALSA?
+
+a) Un objeto Date siempre contiene la hora local.
+
+b) Un objeto Date siempre contiene la hora UTC.
+
+c) Un objeto Date siempre contiene la hora Zulu.
+
+* d) El constructor del objeto Date siembre entiende la hora como local. 
+
+-----------------------------------------------------
+
+elemento
+
+En HTML
+
+* a. Un elemento está formado por etiqueta de apertura, contenido y
+    etiqueta de cierre
+
+b. Una etiqueta contiene elemento de apertura y elemento de cierre.
+
+* c. Un elemento siempre tiene etiqueta de apertura. Casi siempre
+(no siempre) tiene, además, contenido y cierre
+
+d.  Una etiqueta se puede omitir, casi siempre.
+
+-----------------------------------------------------
+
+eventos
+
+¿Cuál de estas afirmaciones FALSA?
+
+
+En el DOM
+
+a.  Un manejador es una función. Se puede declarar con nombre
+    o se puede declarar anónima.
+
+b.  Todo manejador siempre tiene al menos un evento asociado.
+
+c.  Un evento puede disparar varios manejadores.
+
+* d.  Todo evento siempre tiene un manejador que lo procesa.
+
+------------------------------------------------------
+
+excepcion
+
+Observa estas tres sentencias en JavaScript. 
+
+throw 'Problema tal cual';
+
+throw new Error('Problema tal cual');
+
+throw new Exception('Problema tal cual');
+
+
+a) Las tres están mal.
+
+b) Las tres están bien.
+
+* c) Las dos primeras están bien, la tercera está mal.
+
+d) Solo la segunda es correcta.
+
+---------------------------------------------------------
+
+flecha
+
+¿Cuál de estas afirmaciones es FALSA?
+
+* a.  Las funciones flecha y las funciones anónimas de JavaScript solo se
+    pueden usar cuando una función es un argumento de otra función.
+
+b.  Las funciones flecha y las funciones anónimas se pueden usar
+    siempre, pero solo tienen alguna ventaja cuando una función es un
+    argumento de otra función.
+
+c.  Las funciones flecha también son funciones anónimas, pero con una
+    sintaxis especial, más compacta.
+
+d.  Las funciones flecha y las funciones anónimas se usan mucho en
+    JavaScript, aunque sus ventajas son discutibles.
+
+----------------------------------------------------------
+
+img
+
+
+¿Cuál de estos elementos puede ser correcto?
+
+
+* a) <img src="/diagrama.jpg" alt="Diagrama principal del sistema">
+
+b) <img src="diagrama.jpg" alt="Diagrama principal del sistema"></img>
+
+c) <img src=diagrama.png alt=Diagrama principal del sistema>
+
+d) <img> src="diagrama.png" alt="Diagrama principal del sistema" </img>
+
+----------------------------------------------------------------
+
+input
+
+¿Cuál es la respuesta correcta?
+
+a.  En un atributo 'input' normalmente hay un elemento 'id' y un
+    elemento 'name'. Es preferible que su valor sea el mismo, pero no
+    tiene por qué serlo. El primero lo usa el cliente, el segundo, el
+    servidor.
+
+b.  En un atributo 'input' normalmente hay un elemento 'id' y un
+    elemento 'name'. Es preferible que su valor sea el mismo, pero no
+    tiene por qué serlo. El primero lo usa el servidor, el segundo, el
+    cliente.
+
+c.  En un elemento 'input' normalmente hay un atributo 'id' y un
+    atributo 'name'. Es preferible que su valor sea el mismo, pero no
+    tiene por qué serlo. El primero lo usa el servidor, el segundo, el
+    cliente.
+
+* d.  En un elemento 'input' normalmente hay un atributo 'id' y un
+    atributo 'name'. Es preferible que su valor sea el mismo, pero no
+    tiene por qué serlo. El primero lo usa el cliente, el segundo, el
+    servidor.
+
+------------------------------------------------------------------
+
+len
+
+La mayoría de lenguajes de programación tienen una función, método
+o propiedad para conocer la lontigud de una cadena, cuyo nombre
+suele ser len o similar. Por ejemplo, dada una cadena s.
+
+
+* a) len(s) sería una función. 
+
+b) s.len() sería un método. Es como se hace en JavaScript.
+
+c) s.lengh() sería un método. Es como se hace en JavaScript.
+
+d) s.lengh sería una propiedad. Es como se hace en JavaScript.
+
+-----------------------------------------------------------------
+
+letvar
+
+En JavaScript, respecto al paso de variables a las funciones:
+
+* a)  Todas las variables se pasan por valor.
+
+b)  Todas las variables se pasan por referencia.
+
+c)  Las variables declaradas con let se pasan por valor, las declaradas
+    con var, por referencia.
+
+d)  Las variables declaradas con var se pasan por valor, las declaradas
+    con let, por referencia.
+
+------------------------------------------------------------
+
+localStorage
+
+Solo una de estas afirmaciones es cierta ¿Cuál?
+
+* a.  Con localStorage, la información es persistente, se guarda en el
+    disco del cliente.
+
+b.  Con localStorage, la información es persistente. Pero no se puede
+    almacenar en el disco del cliente, por motivos de seguridad esto
+    está prohibido en JavaScript. Por tanto, la información se guarda en
+    el servidor.
+
+c.  Si una aplicación almacena mucha información en sessionStorage,
+    puede que quede poco sitio para las demás. Pero como el espacio
+    disponible suele ser 5Mb, esto no es un gran inconveniente.
+
+d.  Si una aplicación almacena mucha información en localStorage, puede
+    que quede poco sitio para las demás. Pero como el espacio disponible
+    suele ser 5Mb, esto no es un gran inconveniente.
+
+---------------------------------------------------------------
+
+motor
+
+¿JavaScript es un lenguaje compilado?
+
+a)  Sí.
+
+b)  No.
+
+c)  Antes no, ahora sí.
+
+* d)  Depende.
+
+--------------------------------------------------------------
+
+plainObjects
+
+¿Cuál de estas declaraciones es errónea?
+
+
+a) let a = { "uno":1, "dos":2 }
+
+b) let b = { "uno":1, "dos":2 };
+
+* c) let c = { "uno":"1"; "dos":"2" };
+
+d) let d = { "uno":["1"], "dos":["2"] };
+
+--------------------------------------------------------------
+
+poo
+
+¿Cuál es la respuesta mejor?
+
+a) En JavaScript se usa programación orientada a objetos basada
+en prototipos.
+
+b) En JavaScript se usa programación orientada a objetos basada
+en clases.
+
+c) En JavaScript se puede usar programación orientada a objetos
+basada en clases y programación orientada a objetos basada en
+prototipos, aunque la tradicional en JavaScript es la basada en
+clases.
+
+* d) En JavaScript se puede usar programación orientada a objetos
+basada en clases y programación orientada a objetos basada en
+prototipos, aunque la tradicional en JavaScript es la basada en
+prototipos.
+
+------------------------------------------------------------
+
+sameOrigin
+
+
+Sea una máquina A y una máquina B.  Según la "same-origin policy"
+
+
+a) Si desde A cargo via http un fichero HTML que está en un servidor
+web de la máquina B, y este fichero incluye un programa JavaScript,
+este programa solo puede acceder a datos en A.
+
+* b) Si desde A cargo via http un fichero HTML que está en un servidor
+web de la máquina B, y este fichero incluye un programa JavaScript,
+este programa solo puede acceder a datos en B.
+
+c) Si desde A cargo via http un fichero HTML que está en un servidor
+web de la máquina B, y este fichero incluye un programa JavaScript,
+este programa solo puede acceder a datos en A o en B, pero
+en ninguna otra máquina.
+
+d) Si desde A cargo via https un fichero HTML que está en un servidor
+web de la máquina B, y este fichero incluye un programa JavaScript,
+este programa solo puede acceder a datos en A o en B, pero
+en ninguna otra máquina.
+
+--------------------------------------------------------------
+
+tablas
+
+¿Cuál es la respuesta correcta?
+
+* a.  Una tabla en Bootstrap es una tabla HTML a la que le añadimos la
+    clase 'table'.
+
+b.  Una tabla en Bootstrap es una tabla HTML a la que le añadimos la
+    clase 'table' y la clase 'table-striped'.
+
+c.  Una tabla en Bootstrap es un elemento HTML 'bootstrap-table'.
+
+d.  Cualquier tabla dentro de un 'container' de Bootstrap tendrá el
+    formato indicado por Bootstrap.
+
+----------------------------------------------------------------
+
+textoDom
+
+Para escribir texto dentro de un elemento HTML mediante el DOM
+
+a.  Empleamos el método textContent, al que pasamos un selector (para
+    especificar dónde escribimos) y la cadena de texto a escribir.
+
+b.  Empleamos el método textContext, al que pasamos un selector (para
+    especificar dónde escribimos) y la cadena de texto a escribir.
+
+c.  Primero seleccionamos el elemento con getElement(), luego,
+    modificamos la propiedad textContent del elemento.
+
+* d.  Primero seleccionamos el elemento con querySelector(), luego,
+    modificamos la propiedad textContent del elemento.
+
+------------------------------------------------------------
+
+viewport
+
+¿Qué respuest es FALSA?
+
+El viewport virtual es
+
+a.  Una técnica de segunda generación para mostrar páginas web en
+    dispositivos móviles.
+
+* b. Una técnica obsoleta. Aunque sigue funcionando.
+
+c.  Una pantalla imaginaria donde se compone una página web. Luego, en
+    la pantalla de un dispositivo móvil, se muestra esta pantalla
+    virtual, reducida.
+
+d.  Una pantalla imaginaria donde se compone una página web. Luego, en
+    la pantalla de un dispositivo móvil, se muestra una zona de esta
+    pantalla virtual.
+
+

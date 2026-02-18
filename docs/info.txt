@@ -1,0 +1,77 @@
+1. Crear tabla HTML
+
+const tablaMenu = document.createElement("table");
+tablaMenu.className = "table table-bordered mb-4";
+
+2. Crear cabecera (thead) con una fila y una celda
+
+const theadMenu = document.createElement("thead");
+const trHeadMenu = document.createElement("tr");
+const thMenu = document.createElement("th");
+thMenu.textContent = categoria; // "Para llevar", "Bebidas", etc.
+thMenu.className = "text-center bg-primary text-white";
+
+trHeadMenu.appendChild(thMenu);
+theadMenu.appendChild(trHeadMenu);
+tablaMenu.appendChild(theadMenu);
+
+- Si necesitas más columnas (como para “stock” o “precio”), crearías más <th>:
+
+const thNombre = document.createElement("th");
+thNombre.textContent = "Producto";
+
+const thStock = document.createElement("th");
+thStock.textContent = "Stock";
+
+trHeadMenu.appendChild(thNombre);
+trHeadMenu.appendChild(thStock);
+
+3. Crear filas (tr) con celdas (td)
+
+productos.forEach(producto => {
+    const tr = document.createElement("tr"); // Nueva fila
+
+    const td = document.createElement("td"); // Celda para imagen + nombre
+    td.id = "producto_" + producto.id;
+
+    // Imagen del producto
+    const img = document.createElement("img");
+    img.src = `images/${producto.id}.jpg`;
+    img.alt = producto.nombre;
+    img.style.width = "100px";
+
+    td.appendChild(img);
+    td.appendChild(document.createTextNode(producto.nombre));
+
+    tr.appendChild(td);
+    tbodyMenu.appendChild(tr);
+});
+
+Si necesitas más columnas (por ejemplo, una columna para stock), solo creas otro <td>:
+
+const tdStock = document.createElement("td");
+tdStock.textContent = producto.stock;
+tr.appendChild(td);
+tr.appendChild(tdStock);
+
+- Botones como “🗑️” en la tabla de pedidos se agregan así:
+
+const celdaEliminar = document.createElement("td");
+celdaEliminar.innerHTML = "🗑️";
+celdaEliminar.style.cursor = "pointer";
+celdaEliminar.style.textAlign = "center";
+
+// Evento del botón
+celdaEliminar.addEventListener("click", () => {
+    fila.remove(); // Elimina la fila
+});
+fila.appendChild(celdaEliminar);
+
+- Puedes añadir cualquier botón con:
+
+const boton = document.createElement("button");
+boton.textContent = "Comprar";
+boton.className = "btn btn-success";
+boton.addEventListener("click", () => {
+    // Acción al hacer clic
+});
